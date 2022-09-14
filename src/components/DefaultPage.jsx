@@ -34,7 +34,7 @@ const DefaultPage = () => {
             <li className='items'><AiOutlinePoweroff size={22} className='text-primary'/><a href="">Log Out</a></li>
           </ul>
         </div>  
-        <div class="col-span-10 grid grid-cols-10 gap-5">
+        <div class="col-span-10 grid grid-cols-10 grid-rows-3 gap-5">
           <div class="col-span-2 flex flex-col border-2 border-primary card rounded-3xl overflow-hidden">
             <img class="w-12/12 h-40 object-cover" src={coverImage} alt="" />
             <div class="bg-gray-200 px-4 py-3">
@@ -150,29 +150,7 @@ const DefaultPage = () => {
               </div>
             </div>
           </div>
-          <div class="col-span-2 flex flex-col border-2 border-primary card rounded-3xl overflow-hidden">
-            <img class="w-12/12 h-40 object-cover" src={coverImage} alt="" />
-            <div class="bg-gray-200 px-4 py-3">
-              <h2 class="text-black text-base font-bold w-fit mb-2">Lorem ipsum dolor sit amet con adipisicing elit del musro.</h2>
-              <p class="text-sm text-gray-700 mb-3">18h ago</p>
-              <div class="flex justify-between">
-                <div class="flex gap-2">
-                  <img class="w-6 h-6 rounded-full" src={eagle} alt="" />
-                  <p>Amine</p>
-                </div>
-                <div class="flex gap-3">
-                  <div class="flex items-center gap-1">
-                  <p>11</p>
-                    <AiOutlineComment />
-                  </div>
-                  <div class="flex items-center gap-1">
-                    <p>18</p>
-                    <AiOutlineEye />
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+          
         </div>
       </main>
     </div>
